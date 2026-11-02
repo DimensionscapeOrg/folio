@@ -1,0 +1,9 @@
+# folio as a stand-in for List & Label's library on 32-bit Linux: a shared library that
+# exports the same calls, for a program ported from Windows to link in its place.
+-cp src
+folio.ll.Exports
+folio.ll.ListLabel
+-D dll_link
+-D HXCPP_M32
+-D HAXE_OUTPUT_FILE=folio
+--cpp bin/listlabel-linux-x86

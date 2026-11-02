@@ -1,0 +1,6 @@
+# The unit tests, on the Haxe interpreter. Run from the repository root.
+-cp src
+-cp test
+-lib utest
+-main TestMain
+--interp

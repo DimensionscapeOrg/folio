@@ -1,0 +1,8 @@
+# The unit tests compiled to C++, the target folio runs on inside a program. Run from
+# the repository root, then run bin/tests-cpp/TestMain.exe from there too.
+-cp src
+-cp test
+-lib utest
+-main TestMain
+-D HXCPP_M32
+--cpp bin/tests-cpp

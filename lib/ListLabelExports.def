@@ -1,0 +1,29 @@
+; The List & Label functions folio answers, under List & Label's names.
+; See ListLabelExports.cpp.
+EXPORTS
+    LlJobOpen
+    LlJobClose
+    LlSetOption
+    LlGetOption
+    LlSetOptionStringA
+    LlSetDebug
+    LlDefineVariableStart
+    LlDefineFieldA
+    LlDefineFieldExtA
+    LlDefineVariableA
+    LlDefineVariableExtA
+    LlDbAddTableA
+    LlPrintStartA
+    LlPrint
+    LlPrintFields
+    LlPrintFieldsEnd
+    LlPrintEnd
+    LlPrintDbGetCurrentTableA
+    LlPrintDbGetCurrentTableSortOrderA
+    LlPrintGetOption
+    LlPrintSetOptionStringA
+    LlPrintGetCurrentPage
+    LlStgsysStorageOpenA
+    LlStgsysStorageClose
+    LlStgsysAppend
+    LlStgsysStorageConvertA

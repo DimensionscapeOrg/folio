@@ -1,0 +1,12 @@
+{
+  "name": "folio",
+  "url": "https://github.com/DimensionscapeOrg/folio",
+  "license": "MIT",
+  "tags": ["report", "pdf", "layout", "list-and-label", "cpp"],
+  "description": "Open source report layout for Haxe, compatible with combit's List & Label: reads List & Label project files and formulas, answers List & Label's calls so a program written against it can use folio as an alternative, and lays the reports out as PDF.",
+  "version": "0.2.0",
+  "classPath": "src",
+  "releasenote": "Builds as a 32- or 64-bit Linux shared library exporting the same List & Label functions as the Windows DLL, takes fonts from the folders FOLIO_FONTS lists, and describes folio as an open source alternative compatible with combit's List & Label.",
+  "contributors": ["Dimensionscape"],
+  "dependencies": {}
+}

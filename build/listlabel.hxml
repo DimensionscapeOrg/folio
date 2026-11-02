@@ -1,0 +1,9 @@
+# folio as a stand-in for List & Label's library on 32-bit Windows: folio.dll, and the
+# import library folio.lib that a program links in place of List & Label's.
+-cp src
+folio.ll.Exports
+folio.ll.ListLabel
+-D dll_link
+-D HXCPP_M32
+-D HAXE_OUTPUT_FILE=folio
+--cpp bin/listlabel-windows-x86

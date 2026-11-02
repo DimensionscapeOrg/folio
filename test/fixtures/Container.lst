@@ -1,0 +1,45 @@
+﻿[List description]
+[Description]
+ Text=List & Label Project File
+ FileVersion=15
+[Object]
+ ObjectID=1
+ ObjectName=Text
+ Identifier=Title
+ Condition=True
+[Object]
+ ObjectID=2
+ ObjectName=Report Container
+ Condition=True
+ [@Tables]
+  {
+  [Tables]
+   {
+   [Table]
+	{
+	TableType=List
+	TableID=Always
+	[DataLines]
+	 {
+	 bKeepTogether=True
+	 [Line]
+	  {
+	  Condition=Cond(Never == "x", True, False)
+	  }
+	 }
+	Condition=True
+	}
+   [Table]
+	{
+	TableType=List
+	TableID=TypeAOnly
+	Condition=Cond(ListType == "TypeA", True, False)
+	}
+   [Table]
+	{
+	TableType=List
+	TableID=Last
+	}
+   }
+  }
+[UserVariables]

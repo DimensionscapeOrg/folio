@@ -1,0 +1,9 @@
+<xml>
+	<!-- The List & Label exports, added to the Haxe build by folio.ll.Exports. -->
+	<files id="haxe">
+		<file name="${haxelib:folio}/lib/ListLabelExports.cpp"/>
+	</files>
+	<target id="haxe">
+		<flag value="-def:${haxelib:folio}/lib/ListLabelExports.def" if="windows"/>
+	</target>
+</xml>
